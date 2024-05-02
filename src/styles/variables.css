@@ -9,7 +9,6 @@
   --color-white: #ffffff;
   --color-grey: #b3ada5;
 
-  --basefont-size: 1rem;
   --xxs: 0.25rem;
   --xs: 0.5rem;
   --s: 0.75rem;
@@ -19,6 +18,11 @@
   --xxl: 2rem;
   --xxxl: 4rem;
 
-  
-
+  --lh-tight: 100%;
+  --lh-normal: 130%;
+  --lh-loose: 150%;
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
 }

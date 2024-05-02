@@ -6,12 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <script type="module" src="/src/main.js" defer></script>
-    <link rel="stylesheet" href="/src/index.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
     <div id="wrapper">
       <nav></nav>
-      <header></header>
+      <header class="hero-slider">
+        <ul class="list">
+          <li class="item">
+            <img
+              src="/public/assets/images/blick-auf-die-aggerinsel.jpg"
+              alt="Blick auf die Aggerinsel"
+            />
+            <div class="content">
+              <h2>Projekte nachhaltig planen</h2>
+              <p>
+                Projekte nachhaltig zu planen ist entscheidend für ihren
+                langfristigen Erfolg und ihre positive Auswirkung auf die
+                Umwelt, die Gesellschaft und die Wirtschaft.
+              </p>
+              <a href="#">Beitrag ansehen</a>
+            </div>
+          </li>
+          <li class="hero-list-item is-hidden"></li>
+          <li class="hero-list-item is-hidden"></li>
+        </ul>
+
+        <div class="controls is-hidden">
+          <button class="prev">Prev</button>
+          <button class="next">Next</button>
+        </div>
+      </header>
       <main>
         <table class="table-list">
           <thead class="is-hidden">
