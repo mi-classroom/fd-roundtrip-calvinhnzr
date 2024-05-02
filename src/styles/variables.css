@@ -1,0 +1,24 @@
+:root {
+  --color-red: #f21f30;
+  --color-yellow: #f5b120;
+  --color-orange: #f9622b;
+  --color-purple: #641e50;
+  --color-beige: #fef9f2;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-grey: #b3ada5;
+
+  --basefont-size: 1rem;
+  --xxs: 0.25rem;
+  --xs: 0.5rem;
+  --s: 0.75rem;
+  --m: 1rem;
+  --l: 1.2rem;
+  --xl: 1.5rem;
+  --xxl: 2rem;
+  --xxxl: 4rem;
+
+  
+
+}
