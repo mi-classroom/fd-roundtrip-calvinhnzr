@@ -1,16 +1,41 @@
 /* hero */
 
 .hero-slider {
+  margin-bottom: 3rem;
   .list {
     width: 100%;
-    outline: 1px solid red;
     .item {
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       width: 100%;
-      img {
-        max-width: 500px;
+
+      .image {
+        height: 100%;
+        img {
+          width: auto;
+          height: inherit;
+          object-fit: cover;
+          aspect-ratio: 2560 / 1418;
+        }
       }
+
       .content {
+        background-color: var(--color-green);
+        padding: var(--xl);
+        display: flex;
+        flex-direction: column;
+        > * {
+          color: var(--color-white);
+        }
+        h2 {
+          font-size: var(--xl);
+        }
+        p {
+          font-weight: 300;
+        }
+        a {
+          margin-top: auto;
+        }
       }
     }
   }
@@ -32,8 +57,10 @@
   background-color: transparent;
   tr {
     border-bottom: 1px solid var(--color-black);
+
     td {
       /* vertical-align: baseline; */
+
       padding: 1rem;
       &.article-date {
         padding: 1rem 0;
